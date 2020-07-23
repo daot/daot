@@ -1,0 +1,64 @@
+    <svg fill="none" width="400px" height="300px" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+        <foreignObject width="400px" height="300px">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <style>
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+
+                    .container {
+                        align-items: center;
+                        display: flex;
+                        justify-content: space-around;
+                        width: 400px;
+                        height: 300px;
+                    }
+
+                    pre {
+                        font-size: 16px;
+                        font-weight: 700;
+                        font-family: monospace;
+                        background-image: repeating-linear-gradient(45deg, #ef2f73, #d6aa27, #8cf285, #32bcff, #ab70ea, #ef2f73);
+                        background-size: 800% 800%;
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        animation: rainbow 5s linear infinite;
+                    }
+
+                    @keyframes rainbow {
+                        0% {
+                            background-position: 0% 50%
+                        }
+
+                        50% {
+                            background-position: 100% 25%
+                        }
+
+                        100% {
+                            background-position: 0% 50%
+                        }
+                    }
+                </style>
+                <div class="container">
+                    <pre>
+                     /~\     
+What a desolate     |oo )    
+ place this is.     _\=/_    
+    ___            /  _  \   
+   / ()\          //|/.\|\\  
+ _|_____|_       ||  \_/  || 
+| | === | |      || |\ /| || 
+|_|  O  |_|       # \_ _/  # 
+ ||  O  ||          | | |    
+ ||__*__||          | | |    
+|~ \___/ ~|         []|[]    
+/=\ /=\ /=\         | | |    
+[_] [_] [_]        /_] [_\
+</pre>
+                </div>
+            </div>
+        </foreignObject>
+    </svg>
